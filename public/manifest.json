@@ -1,24 +1,31 @@
 {
-  "name": "Rocketflix",
-  "short_name": "RFlix",
+  "short_name": "Rocketflix",
+  "name": "Rocketflix: Um App de recomendação de filmes.",
   "icons": [
     {
       "src": "/android-chrome-192x192.png",
-      "sizes": "192x192",
-      "type": "image/png"
+      "type": "image/png",
+      "sizes": "192x192"
     },
     {
       "src": "/android-chrome-512x512.png",
-      "sizes": "512x512",
-      "type": "image/png"
+      "type": "image/png",
+      "sizes": "512x512"
     }
   ],
-  "theme_color": "#4f0079",
+  "id": "/?source=pwa",
+  "start_url": "/?source=pwa",
   "background_color": "#000",
-  "splash_pages": null,
-  "display": "minimal-ui",
-  "orientation": "portrait",
-  "Scope": "/",
-  "start_url": "/",
-  "prefer_related_applications": true
+  "display": "standalone",
+  "scope": "/",
+  "theme_color": "#000",
+  "description": "Não sabe o que assistir? Entre na Rocketflix para descobrir seu próximo filme!",
+  "screenshots": [
+    {
+      "src": "/screenshot1.png",
+      "type": "image/png",
+      "sizes": "540x720",
+      "form_factor": "narrow"
+    }
+  ]
 }
